@@ -1,0 +1,16 @@
+name: 'shelf_corps'
+version: 0.0.1
+description: A web server built using the shelf package.
+#author: meflyup <email@example.com>
+#homepage: https://www.example.com
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  browser:
+  args: '>=0.10.0 <0.14.0'
+  shelf: '>=0.6.0 <0.7.0'
+  shelf_route:
+  shelf_cors:
+  sqljocky:
