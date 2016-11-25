@@ -1,13 +1,7 @@
+//Copyright (c) 2016, meflyup. All rights reserved. Use of this source code
+//is governed by a MIT-style license that can be found in the LICENSE file.
 
-/*
-* Copyright (c) 2016, meflyup. All rights reserved. Use of this source code
-*is governed by a MIT-style license that can be found in the LICENSE file.
-*这个案例显示如何综合使用shelf pipeline，middleware和handle；
-*如何接受和响应从客户端发起的post和get请求
-*如何连接数据库及查询数据；
-*如何转换json数据
-*
-*/
+
 import 'dart:async';
 import 'dart:io';
 import 'dart:convert';
@@ -17,6 +11,14 @@ import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as io;
 import 'package:shelf_cors/shelf_cors.dart' as shelf_cors;
 import 'package:shelf_route/shelf_route.dart';
+
+/*
+*这个案例显示如何综合使用shelf pipeline，middleware和handle；
+*如何接受和响应从客户端发起的post和get请求
+*如何连接数据库及查询数据；
+*如何转换json数据
+*/
+
 
 Map<String, String> data = new Map();
 final pool = new ConnectionPool(host: "localhost",
