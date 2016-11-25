@@ -1,10 +1,13 @@
-// Copyright (c) 2016, meflyup. All rights reserved. Use of this source code
 
-// is governed by a BSD-style license that can be found in the LICENSE file.
-///这个案例显示如何综合使用shelf pipeline，middleware和handle；
-///如何接受和响应从客户端发起的post和get请求
-///如何连接数据库及查询数据；
-///如何转换json数据
+/*
+* Copyright (c) 2016, meflyup. All rights reserved. Use of this source code
+*is governed by a MIT-style license that can be found in the LICENSE file.
+*这个案例显示如何综合使用shelf pipeline，middleware和handle；
+*如何接受和响应从客户端发起的post和get请求
+*如何连接数据库及查询数据；
+*如何转换json数据
+*
+*/
 import 'dart:async';
 import 'dart:io';
 import 'dart:convert';
